@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arghya.imageswap.MainActivity">
+
+    <ImageView
+        android:id="@+id/birdImageView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/bird_bird_of_prey_raptor_218997"
+         />
+
+    <Button
+        android:id="@+id/buttonChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickFunction"
+        android:text="Change"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/birdImageView"
+      />
+</RelativeLayout>
